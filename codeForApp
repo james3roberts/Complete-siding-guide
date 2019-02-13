@@ -1,0 +1,43 @@
+import time
+
+print('Hello and welcome to House wrap 101')
+time.sleep(1.0)
+print('We are going to be learning how to paper a house quickly and correctly.')
+time.sleep(2.0)
+answer = input('Have you ever papered before? y/n ')
+if answer=='n':
+  print('Thats okay I will cover everything that you need to know')
+  time.sleep(1.0)
+  answer1= input('Do you know all of the basic tools that are required? y/n ')
+  if answer1 =='n':
+    print('Thats Alright, I will go over everything that you will need to know.')
+    time.sleep(1.0)
+    print('First you will need to know which style of fastners you must use.')
+    answer2= input('Are you supposed to use button caps?y/n ')
+    if answer2 =='n':
+      print('Hammer Tackers are really simple to use.')
+      print('Just drop the staples in the bottom of the handel and you are ready to go.')
+    else:
+      print('Button caps are great and they keep the paper on much better if it needs to sit for a periord of time.')
+      print('You will also be needing a utility knife.')
+      answer3 = input('Do you know the difference between grace tape and tyvek tape? y/n ')
+      if answer3 =='n':
+        print('Grace tape is a rubber tape that goes around windows, usually black and super sticky and normaly 6 inches wide')
+        print('Tyvek tape is generally clear or white and about 2 inches wide. ')
+    
+else:
+  print('Great we can get straight to getting it done fast and right!')
+time.sleep(1.0)
+print('Start by rolling the paper out the length of the wall.')
+time.sleep(1.0)
+print('Make sure that you have about 18 inches extra on each end.')
+print('Start at one corner and at the bottom.')
+print('line up the bottom of the paper with the bottom of the mud sill')
+print('tack the paper to the bottom all of the way across the wall')
+answer4 = input('Is the entire bottom attached and flush? y/n?')
+if answer4 =='n':
+  print('For this to work quickly and efficiently the entire bottome has to be set inplace before going any futher.')
+else:
+  print('Now starting near the center push the straight up and tack it off as high as you can reach.')
+print('Now working away from the center just keep working the up.')
+print('')
