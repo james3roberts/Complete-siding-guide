@@ -16,6 +16,4 @@ elif userAnswer == 'soffit':
 elif userAnswer == 'fascia':
     import AppforFascia
 else:
-    print('Well I hope guide helped you understand ')
-
-#test from desktopgit
+    print('Well I hope guide helped you understand '
