@@ -16,5 +16,5 @@ elif userAnswer == 'soffit':
 elif userAnswer == 'fascia':
     import AppforFascia
 else:
-    print('Well I hope guide helped you understand '
-##I guess when I hooked it up to github I broke it. So to hell with it all. 
+    print('Well I hope guide helped you understand ')
+##I guess now it is time to build this for real.  
