@@ -76,6 +76,18 @@ if userInput2 =='1':
 if userInput2 == ('2'):
     print('With 2 people this goes a little different.')
     time.sleep(2)
+    print('First you will want to make sure that you know which way the paper unrolls')
+    time.sleep(2)
+    print('This is important because if you start on the wrong side you will have to fight the ')
+    time.sleep(2)
+    print('roll all the way across the wall')
+    print('To start we will want to make sure that we have 6 to 8 inches past the corner')
+    time.sleep(3)
+    print('or overlapping the roll of paper')
+    time.sleep(2)
+    print('Next the person holding the roll will need to make sure that the bottow of the paper is aligned ')
+    time.sleep(2)
+    print('with the bottom of the wall. ')
 
 
 
